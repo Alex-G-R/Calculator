@@ -1,0 +1,40 @@
+body{
+    font-family: Arial;
+    background-color: deepskyblue;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+.calculator-column {
+    display: flex;
+}
+.box {
+    background-color: white;
+    height: 150px;
+    width: 150px;
+    margin-left: 40px;
+    font-weight: 900;
+    border: 4px solid black;
+    font-size: 3em;
+}
+#display {
+    background-color: white;
+    height: 100px;
+    width: 710px;
+    margin-left: 40px;
+    border: 4px solid black;
+    color: black;
+    font-size: 2em;
+    font-weight: 900;
+}
+#num-equal {
+    width: 340px;
+}
+#num-plus {
+    width: 150px;
+}
+#numC {
+    height: 110px;
+    margin-left: 20px;
+}
